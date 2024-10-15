@@ -1,5 +1,5 @@
 # WeMovies web-app
-
+![alt text](https://github.com/sihamlabssir/weMovies-app/blob/main/docs/app-screen.png?raw=true)
 
 ## Introduction
 
