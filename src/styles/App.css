@@ -1,0 +1,66 @@
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.genres-menu, .movie-list {
+    margin-bottom: 20px;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 1000;
+}
+
+.modal-content {
+    text-align: center;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.star-rating {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.star-rating .filled {
+    color: gold;
+}
+
+
+.search-bar {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.suggestions li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestions li:hover {
+    background-color: #f0f0f0;
+}
